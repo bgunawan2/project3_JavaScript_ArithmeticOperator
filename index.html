@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/myCalculator.css" rel="stylesheet"/>
+    <script src="js/script1.js" defer></script>
+    <title>CSIS 1280 Lab 7</title>
+</head>
+<body>
+    <header>
+        <h1>Lab 7: JavaScript Arithmetic Operator</h1>
+    </header>
+
+    <form name="my_calculator" action="#">
+
+        <section >
+            <fieldset >
+                <legend>Input</legend>
+                <label>Operands:</label>
+                <input type="text" id="inpt1" >
+                <input type="text" id="inpt2" ><br>
+                <label>Operator:</label>
+                <input type="button" name="submit" value="+" onclick="addValue()">
+                <input type="button" name="submit" value= &times; onclick="multiplyValue()">      
+                <input type="button" name="submit" value=&#247; onclick="divideValue()"> 
+                <input type="button" name="reset_form" value="Clear" onclick="this.form.reset();">             
+            </fieldset>
+        </section>
+    
+        <section>
+            <fieldset>
+                <legend>My calculator</legend>
+                <textarea name="output" id="sumplace" rows="3" cols="20" ></textarea>
+            </fieldset>
+        </section>
+
+    </form>
+    
+    <footer></footer>
+</body>
+</html>
