@@ -4,14 +4,15 @@ input{
 fieldset{
     width: 250px;
     padding: 10px 20px;
-    background-color:rgb(245, 148, 3);
+    background-color:rgb(3, 197, 245);
     margin-bottom: 10px;
+    
 }
 
 legend{
     background-color: black;
     padding: 0 10px;
-    color: orange;
+    color: rgb(3, 197, 245);
     
 }
 
@@ -26,4 +27,8 @@ h1{
 
 input#inpt1, input#inpt2 {
     width: 50px;
+}
+
+html{
+    padding-left: 38%;
 }
